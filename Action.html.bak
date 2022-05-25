@@ -1,0 +1,178 @@
+<DOCTYPE! html>
+<html>
+<head>
+<title>Action Movies</title>
+<style>
+header {
+background-color: black;
+height:70px
+font family: Helvetica Bold;
+font-size: 35px;
+color: white;
+border: 2px outset white;
+text-align: center
+}
+body {
+background-image: url("Background-Image.jpg");
+background-color: #cccccc;
+}
+article section h1 {
+color: white;
+text-align: center;
+}
+article section p {
+color: white;
+margin: 2px
+}
+footer {
+color: white;
+}
+img {
+float: left;
+border: 1px dotted black;
+margin: 2px 2px 15px 20px;
+}
+nav ul {
+list-style-type: none;
+padding: 20px;
+margin: 6px;
+}
+nav ul li {
+text-align: left;
+float: left
+}
+nav ul li a {
+text-decoration: none
+}
+.action {
+background-color: #010314;
+color: white;
+border: 2px solid black;
+margin: 20px;
+padding: 20px;
+}
+.search {
+float:right;
+text-align:right
+}
+.glow {
+font-size: 80px;
+color: red;
+text-align: center;
+animation: glow 1s ease-in-out infinite alternate;
+}
+
+
+
+@-webkit-keyframes glow {
+from {
+text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+}
+
+to {
+text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+}
+}
+</style>
+</head>
+
+<body>
+                          <div class="search">
+                          <form class="example" action="/action_page.php">
+                          <input type="text" placeholder="Search.." name="search">
+                          <button type="submit"><i class="fa fa-search">Enter</i></button>
+		                  </div
+                            <ul>
+                          <button><a href="Home.html">Home</a></li></button>
+						  </ul>
+						 
+						  
+ <header>
+ <h1 class="glow">
+Action Movies
+</h1>
+</header>
+ 
+						  
+
+
+<div class="action">
+<h2>Birds of Prey(2020)</h2>
+<img src ="Birds of prey.jpg" alt = "photo should be inserted here" width="20%" height="200">
+After being thrown out in the streets by Joker, Harley struggles to pick herself up. However, Harley teams up with Huntress, Black Canary and Renee Montoya to defeat a gangster and protect a girl.
+Release date: February 7, 2020 (USA)
+Director: Cathy Yan
+Box office: 201.9 million USD
+Music by: Daniel Pemberton
+Adapted from: Birds of Prey
+Distributed by: Warner Bros. Pictures
+<nav>
+<ul>
+<li><button><a href="BIRDS_OF_PREY_-_Official_Trailer_1(240p).mp4">watch trailer</a></button></li>
+<li><button><a href="log in screen.html">get ticket</a></button></li>
+</ul>
+</nav>
+</p>
+<br>
+<br>
+<br>
+<br>
+<br>
+</div>
+
+
+
+<div class="action">
+<h2>Army of the Dead(2021)</h2>
+<p><img src ="The army of the dead.jpg" alt = "photo should be inserted here" width="20%" height="200">
+After a zombie outbreak in Las Vegas, a group of mercenaries take the ultimate gamble and venture into the quarantine zone in hopes of pulling off an impossible heist.
+Release date: May 21, 2021 (USA)
+Director: Zack Snyder
+Box office: $1 million
+Production company: The Stone Quarry
+Music by: Tom Holkenborg
+Distributed by: Netflix
+<nav>
+<ul>
+<li><button><a href="Army_of_the_Dead___Official_Trailer___Netflix(240p).mp4">watch trailer</a></button></li>
+<li><button><a href="log in screen.html">get ticket</a></button></li>
+</ul>
+</nav>
+</p>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+</div>
+
+
+
+<div class="action">
+<h2>Raya and the Last Dragon(2021)</h2>
+<p><img src ="Raya and the last Dragon.jpg" alt = "photo should be inserted here" width="20%" height="200">
+Raya, a warrior, sets out to track down Sisu, a dragon, who transferred all her powers into a magical gem which is now scattered all over the kingdom of Kumandra, dividing its people.
+Release date: March 5, 2021 (USA)
+Directors: Carlos López Estrada, Don Hall
+Story by: Paul Briggs; Don Hall; Adele Lim; Carlos López Estrada; Kiel Murray; Qui Nguyen; John Ripa; Dean Wellins
+Budget: $100 million+
+Distributed by: Walt Disney Pictures, Walt Disney Studios Motion Pictures
+<nav>
+<ul>
+<li><button><a href="Disney_s_Raya_and_the_Last_Dragon___Official_Trailer(144p).mp4">watch trailer</a></button></li>
+<li><button><a href="log in screen.html">get ticket</a></button></li>
+</ul>
+</nav>
+</p>
+<br>
+<br>
+<br>
+<br>
+</div>
+</body>
+<footer>
+Copyright 2022. New World Theatre
+</footer>
+</html>
+

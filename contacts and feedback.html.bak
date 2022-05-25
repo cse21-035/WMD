@@ -1,0 +1,185 @@
+<DOCTYPE! html>
+<html>
+<head>
+<title>contacts and feedback</title>
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Style the container/contact section */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+header {
+background-color: black;
+height:70px
+font family: Helvetica Bold;
+font-size: 35px;
+color: white;
+border: 2px outset white;
+text-align: center
+}
+body {
+background-image: url("colorful-background.jpg");
+background-color: #cccccc;
+}
+.search {
+float:right;
+text-align:right
+}
+article section h1 {
+color: white;
+text-align: center;
+}
+article section p {
+color: white;
+}
+footer {
+color: white;
+}
+nav ul li a {
+text-decoration: none
+}
+
+img {
+float: left;
+border: 1px dotted black;
+margin: 2px 2px 15px 20px;
+}
+.glow {
+font-size: 80px;
+color: #fff;
+text-align: center;
+animation: glow 1s ease-in-out infinite alternate;
+}
+
+
+
+@-webkit-keyframes glow {
+from {
+text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+}
+
+to {
+text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+}
+}
+.w3-third {
+border: 3px outset red;
+background-color: grey ;
+}
+h2 {text-align: center;}
+p {text-align: center;}
+div {text-align: center;}
+
+</style>
+</head>
+<body>
+<div class="search">
+                          <form class="example" action="/action_page.php">
+                          <input type="text" placeholder="Search.." name="search">
+                          <button type="submit"><i class="fa fa-search">Enter</i></button>
+		                  </div
+                            <ul>
+                          <button><a href="Home.html">Home</a></li></button>
+						  </ul>
+<header>						  
+<h1 class="glow">
+CONTACT US
+</h1>
+</header>
+   <div><p>POBox 26164</p>
+   <p>Game-city</p></div>
+<h2>get in touch with</h2>
+<p>Whatsapp: 74739287</p>                 <p>follow on Facebook:Thabiso Teseletso🥺</p>
+  
+
+<div class="container">
+  <div style="text-align:center">
+    <h2>Contact Us</h2>
+    <p>Swing by for a cup of coffee, or leave us a message:</p>
+  </div>
+  <div class="row">
+    <div class="column">
+      <img src="contacts.jpg" style="width:100%">
+    </div>
+    <div class="column">
+      <form action="/action_page.php">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        <label for="country">Country</label>
+        <select id="country" name="country">
+          <option value="Botswana">Botswana</option>
+          <option value="South Africa">South Africa</option>
+          <option value="usa">USA</option>
+        </select>
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Don't be afraid to write something.." style="height:170px"></textarea>
+        <input type="Submit" value="Submit">
+      </form>
+    </div>
+  </div>
+</div>
+
+</body>
+<footer>
+Copyright 2022. 267Movies
+</footer>
+
+
+
+</html>

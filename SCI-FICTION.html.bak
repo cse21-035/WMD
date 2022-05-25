@@ -1,0 +1,178 @@
+<DOCTYPE! html>
+<html>
+<head>
+<title>SCI-FICTION</title>
+<style>
+header {
+background-color: black;
+height:70px
+font family: Helvetica Bold;
+font-size: 35px;
+color: white;
+border: 2px outset white;
+text-align: center
+}
+body {
+background-image: url("Background-Image.jpg");
+background-color: #cccccc;
+}
+article section h1 {
+color: white;
+text-align: center;
+}
+article section p {
+color: white;
+margin: 2px
+}
+footer {
+color: white;
+}
+img {
+float: left;
+border: 1px dotted black;
+margin: 2px 2px 15px 20px;
+}
+nav ul {
+list-style-type: none;
+padding: 20px;
+margin: 6px;
+}
+nav ul li {
+text-align: left;
+float: left
+}
+nav ul li a {
+text-decoration: none
+}
+.action {
+background-color: #010314;
+color: white;
+border: 2px solid black;
+margin: 20px;
+padding: 20px;
+}
+.search {
+float:right;
+text-align:right
+}
+.glow {
+font-size: 80px;
+color: purple;
+text-align: center;
+animation: glow 1s ease-in-out infinite alternate;
+}
+
+
+
+@-webkit-keyframes glow {
+from {
+text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+}
+
+to {
+text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+}
+}
+</style>
+</head>
+
+<body>
+                          <div class="search">
+                          <form class="example" action="/action_page.php">
+                          <input type="text" placeholder="Search.." name="search">
+                          <button type="submit"><i class="fa fa-search">Enter</i></button>
+		                  </div
+                            <ul>
+                          <button><a href="Home.html">Home</a></li></button>
+						  </ul>
+						 
+						  
+ <header>
+ <h1 class="glow">
+ SCI-FICTION
+ </h1>
+</header>
+ 
+						  
+
+
+<div class="action">
+<h2>Doctor Strange in the Multiverse of Madness (2022)</h2>
+<p><img src ="Doctor strange.jpg" alt = "photo should be inserted here" width="20%" height="200">
+Dr Stephen Strange casts a forbidden spell that opens a portal to the multiverse. However, a threat emerges that may be too big for his team to handle.
+Release date: May 6, 2022 (USA) Trending
+Director: Sam Raimi
+Budget: $200 million
+Production company: Marvel Studios
+Distributed by: Walt Disney Studios Motion Pictures
+<nav>
+<ul>
+<li><button><a href="Dr.Strange_Multiverse_Madness(480p).mp4">watch trailer</a></button></li>
+<li><button><a href="log in screen.html">get ticket</a></button></li>
+</ul>
+</nav>
+</p>
+<br>
+<br>
+<br>
+<br>
+<br>
+</div>
+
+
+
+<div class="action">
+<h2>Spider-Man: No Way Home (2021)</h2>
+<p><img src ="Spiderman.jpg" alt = "photo should be inserted here" width="20%" height="200">
+Peter Parker seeks Doctor Strange's help to make people forget about Spiderman's identity. However, when the spell he casts gets corrupted, several unwanted guests enter their universe.
+Release date: December 17, 2021 (USA)
+Director: Jon Watts
+Box office: 1.893 billion USD
+Budget: $200 million
+Music by: Michael Giacchino
+Distributed by: Columbia Pictures, Sony Pictures, Sony Pictures Releasing
+<nav>
+<ul>
+<li><button><a href="SPIDER-MAN__NO_WAY_HOME_-_Official_Trailer__HD_(240p).mp4">watch trailer</a></button></li>
+<li><button><a href="log in screen.html">get ticket</a></button></li>
+</ul>
+</nav>
+</p>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+</div>
+
+
+
+<div class="action">
+<h2>Black Adam (2022)</h2>
+<p><img src ="black adam.jpg" alt = "photo should be inserted here" width="20%" height="200">
+Black Adam is an upcoming American superhero film based on the DC Comics character of the same name. Produced by New Line Cinema, DC Films, Seven Bucks Productions, and FlynnPictureCo., and set for distribution by Warner Bros. Wikipedia
+Release date: October 21, 2022 (USA)
+Director: Jaume Collet-Serra
+Produced by: Dwayne Johnson; Dany Garcia; Hiram Garcia; Beau Flynn
+Production companies: New Line Cinema; DC Films; Seven Bucks Productions; FlynnPictureCo.
+Based on: Characters; from DC
+Distributed by: Warner Bros. Pictures
+<nav>
+<ul>
+<li><button><a href="BLACK_ADAM_Trailer_(2022)(240p).mp4">watch trailer</a></button></li>
+<li><button><a href="log in screen.html">get ticket</a></button></li>
+</ul>
+</nav>
+</p>
+<br>
+<br>
+<br>
+<br>
+</div>
+</body>
+<footer>
+Copyright 2022. New World Theatre
+</footer>
+</html>
+

@@ -1,0 +1,152 @@
+<DOCTYPE! html>
+<html>
+<head>
+<title>Food and Drinks</title>
+<style>
+body {
+  background-image: url('bk.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+</style>
+<style>
+header {
+background-color: black;
+height:70px
+font family: Helvetica Bold;
+font-size: 35px;
+color: white;
+border: 2px outset white;
+text-align: center
+}
+body {
+background-color: #black;
+}
+article section h1 {
+color: black;
+text-align: center;
+}
+article section p {
+color: white;
+}
+footer {
+color: white;
+}
+nav ul li a {
+text-decoration: none
+}
+.food {
+color: black;
+border: 2px red;
+margin: 20px;
+padding: 20px;
+}
+img {
+float: left;
+border: 1px dotted black;
+margin: 2px 2px 15px 20px;
+}
+.search {
+float:right;
+text-align:right
+}
+.glow {
+font-size: 80px;
+color: #fff;
+text-align: center;
+animation: glow 1s ease-in-out infinite alternate;
+}
+
+
+
+@-webkit-keyframes glow {
+from {
+text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+}
+
+to {
+text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+}
+}
+</style>
+</head>
+<body>
+
+                          <div class="search">
+                          <form class="example" action="/action_page.php">
+                          <input type="text" placeholder="Search.." name="search">
+                          <button type="submit"><i class="fa fa-search">Enter</i></button>
+		                  </div
+                            <ul>
+                          <button><a href="Home.html">Home</a></li></button>
+						  </ul>
+<header>
+<h1 class="glow">
+WATCH WHILE EATING...."<i>such a pleasant feeling</i>"
+</h1>
+</header>
+
+
+
+<div class="food">
+<h2>Popcorns comes with different flavours</h2>
+<p><img src ="ppdpdwual2dtqurrndoj.jpg" alt = "photo should be inserted here" width="30%" height="250">
+<br>
+<br>
+Popcorn flavors for everyone! ; NEW! DOUBLE Cheese Popcorn 
+· NEW! DOUBLE Cheese Popcorn ; Caramel Corn · Caramel Corn ;
+Double Butter Popcorn · Double Butter Popcorn.
+‎Double Butter Popcorn · ‎DOUBLE Cheese Popcorn
+TRY YOUR OWN TASTE😲
+<nav>
+<ul>
+<li><button><a href="log in screen.html">ORDER</a></button></li>
+</ul>
+</nav>
+</p>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+</div>
+
+
+
+<div class="food">
+<h2>ENJOY WITH YOU LITTLE COMBO😲😍</h2>
+<p><img src ="3.png" alt = "photo should be inserted here" style width="30%" style height="250">
+<br>
+<br>
+Buy a Fun Indoor Combo inflatable from Magic Jump
+We enjoy creating new shapes for you ♡ Thank you 
+Enjoy the little things in life design, and Let your smile change ..
+Your Favorite Snack Is Finally Here!
+<nav>
+<ul>
+<li><button><a href="log in screen.html">ORDER</a></button></li>
+</ul>
+</nav>
+</p>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+</div>
+
+
+
+</body>
+<footer>
+Copyright 2022. New World Theatre
+</footer>
+
+
+
+</html>

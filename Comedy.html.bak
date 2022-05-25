@@ -1,0 +1,179 @@
+<DOCTYPE! html>
+<html>
+<head>
+<title>Comedy</title>
+<style>
+header {
+background-color: black;
+height:70px
+font family: Helvetica Bold;
+font-size: 35px;
+color: white;
+border: 2px outset white;
+text-align: center
+}
+body {
+background-image: url("Background-Image.jpg");
+background-color: #cccccc;
+}
+article section h1 {
+color: white;
+text-align: center;
+}
+article section p {
+color: white;
+margin: 2px
+}
+footer {
+color: white;
+}
+img {
+float: left;
+border: 1px dotted black;
+margin: 2px 2px 15px 20px;
+}
+nav ul {
+list-style-type: none;
+padding: 20px;
+margin: 6px;
+}
+nav ul li {
+text-align: left;
+float: left
+}
+nav ul li a {
+text-decoration: none
+}
+.action {
+background-color: #010314;
+color: white;
+border: 2px solid black;
+margin: 20px;
+padding: 20px;
+}
+.search {
+float:right;
+text-align:right
+}
+.glow {
+font-size: 80px;
+color: orange;
+text-align: center;
+animation: glow 1s ease-in-out infinite alternate;
+}
+
+
+
+@-webkit-keyframes glow {
+from {
+text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+}
+
+to {
+text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+}
+}
+</style>
+</head>
+
+<body>
+                          <div class="search">
+                          <form class="example" action="/action_page.php">
+                          <input type="text" placeholder="Search.." name="search">
+                          <button type="submit"><i class="fa fa-search">Enter</i></button>
+		                  </div
+                            <ul>
+                          <button><a href="Home.html">Home</a></li></button>
+						  </ul>
+						 
+						  
+ <header>
+ <h1 class="glow">
+COMEDY
+</h1>
+</header>
+ 
+						  
+
+
+<div class="action">
+<h2>The Adam Project (2022)</h2>
+<p><img src ="Adam Project.jpg" alt = "photo should be inserted here" width="20%" height="200">
+After accidentally crash-landing in 2022, time-traveling fighter pilot Adam Reed teams up with his 12-year-old self for a mission to save the future.
+Release date: March 9, 2022 (USA)
+Director: Shawn Levy
+Music by: Rob Simonsen
+Budget: $116 million
+Written by: Jonathan Tropper; T.S. Nowlin; Jennifer Flackett; Mark Levin
+Distributed by: Netflix
+<nav>
+<ul>
+<li><button><a href="The_Adam_Project___Official_Teaser___Netflix(240p).mp4">watch trailer</a></button></li>
+<li><button><a href="log in screen.html">get ticket</a></button></li>
+</ul>
+</nav>
+</p>
+<br>
+<br>
+<br>
+<br>
+<br>
+</div>
+
+
+
+<div class="action">
+<h2>The Dictator (2012)</h2>
+<p><img src ="The Dictator.jpg" alt = "photo should be inserted here" width="20%" height="200">
+Aladeen, a brutal dictator, travels to New York in order to address the United Nations Security Council. However, his plans go south when a hitman hired by his uncle, Tamir, kidnaps him.
+Release date: May 16, 2012 (USA)
+Director: Larry Charles
+Featured song: The Next Episode
+Box office: $179.4 million
+Distributed by: Paramount Pictures Studios
+Written by: Sacha Baron Cohen; Alec Berg; David Mandel; Jeff Schaffer
+<nav>
+<ul>
+<li><button><a href="The_Dictator_-_Official_Trailer(240p).mp4">watch trailer</a></button></li>
+<li><button><a href="log in screen.html">get ticket</a></button></li>
+</ul>
+</nav>
+</p>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+</div>
+
+
+
+<div class="action">
+<h2>Trevor Noah: Afraid of the Dark </h2>
+<p><img src ="Trevor Noah.jpg" alt = "photo should be inserted here" width="20%" height="200">
+2017 | TV-14 | 1h 7m | Stand-Up Comedy.
+The "Daily Show" host ponders the perils of naming countries, how traffic lights turn New Yorkers invincible and why you shouldn't drink in Scotland.
+Initial release: February 21, 2017
+Director: David Paul Meyer
+Cast: Trevor Noah
+<nav>
+<ul>
+<li><button><a href="Trevor_Noah__%E2%80%8BAfraid_of_the_Dark___Official_Trailer_%5BHD%5D___Netflix(240p).mp4">watch trailer</a></button></li>
+<li><button><a href="log in screen.html">get ticket</a></button></li>
+</ul>
+</nav>
+</p>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+</div>
+</body>
+<footer>
+Copyright 2022. New World Theatre
+</footer>
+</html>
+

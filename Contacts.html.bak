@@ -1,0 +1,123 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<title>Contacts</title><header>
+ 
+
+<body>
+   
+
+
+                         
+<style>
+header {
+background-color: black;
+height:70px
+font family: Helvetica Bold;
+font-size: 12px;
+color: white;
+border: 2px outset white;
+text-align: center
+}
+
+.w3-third {
+border: 3px outset red;
+background-color: grey ;
+}
+
+.category {
+ float:center;
+ display:block;
+ color:white;
+ text-align: center;
+ padding:14px 20px;
+ text-decoration:none;
+}
+
+body {
+ background-color:grey;
+}
+
+  hr { 
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+}
+.search {
+float:right;
+text-align:right
+}
+.glow {
+font-size: 80px;
+color: orange;
+text-align: center;
+animation: glow 1s ease-in-out infinite alternate;
+}
+
+
+
+@-webkit-keyframes glow {
+from {
+text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+}
+
+to {
+text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+}
+}	   
+</style>
+</head>
+<body>
+                         
+
+                          <div class="search">
+                          <form class="example" action="/action_page.php">
+                          <input type="text" placeholder="Search.." name="search">
+                          <button type="submit"><i class="fa fa-search">Enter</i></button>
+		                  </div
+						  
+                            <ul>
+                          <button><a href="Home.html">Home</a></li></button>
+						  </ul>
+<header>						  
+<h1 class="glow">
+CONTACTS AND FEEDBACK
+</h1>
+</header>	  
+
+
+ 
+
+                                <h2><b>About me</b></h2>
+	                            <h3>Achievements</h3>
+								
+	                            <ul>
+                                <li>Degree in software engineering, 2020</li>
+                                <li>Llamaness certification from the Llama Institute, 2014</li>
+                                <li>I coded a website, 2022</li>
+                                <li>"#"</li>
+                                <li>"#"</li>
+                                </ul>
+   </div>
+
+ <hr>
+    <h2><b>Contact me</b></h2>
+	
+	                           <p>P O Box 26164</p>
+	                           <p>Gaborone</p>
+	                           <p>Game city</p>
+	                           <p>Tel=74739287</p>
+							   
+                               <p>AN EMAIL CAN BE SENT TO:<b><i>thabisoteseletso@gmail.com</b></i></a></p>
+     </div>
+								
+								
+<footer style="color:white;">
+© Copyright Thabiso Teseletso, 2022
+</footer>
+</body>
+</html>
+
